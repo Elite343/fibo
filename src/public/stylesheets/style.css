@@ -1,0 +1,51 @@
+body {
+  font: 8px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.flex-center {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+}
+
+.boxie {
+  padding: 1rem 3rem 1.8rem;
+  background-color: #EEE;
+  border-radius: 12px;
+}
+
+.title {
+  color: #555;
+  font-size: 1.5rem;
+  margin: 1rem;
+}
+
+.inpt {
+  border-radius: 6px;
+  padding: 8px;
+  line-height: 20px;
+  border: 2px solid #77A;
+  text-align: center;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.btn {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.subtitle {
+  color: #777;
+  font-size: 0.8rem;
+  margin: 0.6rem;
+}
+
+.result {
+  color: #77A;
+  font-size: 1.2rem;
+  margin: 0.6rem;
+  font-weight: bold;
+}
