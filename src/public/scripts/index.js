@@ -21,3 +21,9 @@ btn_calc.addEventListener('click', function(evt){
     document.getElementById('fibo_rsp').innerHTML = response['fibo'];
   })
 })
+
+// no text please, digits only
+const indx_input = document.getElementById('indx_input');
+indx_input.addEventListener('keyup', function(evt){
+  indx_input.value=indx_input.value.replace(/[^\d]/g,'');
+})
